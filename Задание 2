@@ -1,0 +1,9 @@
+a=(input('Введите вещественные числа'))
+x=a.split(' ')
+print(x)
+p=[]
+for i in x:
+    p.append(float(i))
+print(p)
+m=min(p)
+print(m)
